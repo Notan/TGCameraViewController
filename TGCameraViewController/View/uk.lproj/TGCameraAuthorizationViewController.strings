@@ -1,18 +1,18 @@
 
 /* Class = "IBUILabel"; text = "Allow access to your camera to start taking pictures with app"; ObjectID = "52v-Pz-Qrc"; */
-"52v-Pz-Qrc.text" = "Allow access to your camera to start taking pictures with app";
+"52v-Pz-Qrc.text" = "Разрешить доступ к вашей камере приступить к съемке с приложением";
 
 /* Class = "IBUILabel"; text = "1. Open the Settings of your device"; ObjectID = "5IV-OX-z7n"; */
-"5IV-OX-z7n.text" = "1. Open the Settings of your device";
+"5IV-OX-z7n.text" = "1. Откройте настройки вашего устройства";
 
 /* Class = "IBUILabel"; text = "2. Go to Privacy"; ObjectID = "7BA-cA-IdH"; */
-"7BA-cA-IdH.text" = "2. Go to Privacy";
+"7BA-cA-IdH.text" = "2. Перейти к конфиденциальность";
 
 /* Class = "IBUILabel"; text = "3. Go the Camera"; ObjectID = "8fh-1w-cmk"; */
-"8fh-1w-cmk.text" = "3. Go the Camera";
+"8fh-1w-cmk.text" = "3. Перейти к Камере";
 
 /* Class = "IBUILabel"; text = "Take photos"; ObjectID = "Lvw-Fr-fLT"; */
-"Lvw-Fr-fLT.text" = "Take photos";
+"Lvw-Fr-fLT.text" = "Возьмите фотографии";
 
 /* Class = "IBUILabel"; text = "4. Activate"; ObjectID = "bFi-uS-X6j"; */
-"bFi-uS-X6j.text" = "4. Activate";
+"bFi-uS-X6j.text" = "4. Активировать";
