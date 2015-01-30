@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CCB91A611A29D08D00BA0539 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CCB91A601A29D08D00BA0539 /* Base.lproj */; };
-		CCB91A631A29D09600BA0539 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CCB91A621A29D09600BA0539 /* de.lproj */; };
-		CCB91A651A29D09B00BA0539 /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CCB91A641A29D09B00BA0539 /* pt-BR.lproj */; };
 		F80D223A19CCFAC30019A8EA /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80D223919CCFAC30019A8EA /* TGCameraGridView.m */; };
 		F80D223D19CCFD590019A8EA /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = F80D223C19CCFD590019A8EA /* TGCameraGrid.m */; };
 		F80DC5A319E7FF9D00395FAD /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80DC5A219E7FF9D00395FAD /* TGCameraFocusView.m */; };
@@ -43,10 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CCB91A5C1A29CFE900BA0539 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		CCB91A601A29D08D00BA0539 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Example/Classes/View/Base.lproj; sourceTree = SOURCE_ROOT; };
-		CCB91A621A29D09600BA0539 /* de.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = de.lproj; path = Example/Classes/View/de.lproj; sourceTree = SOURCE_ROOT; };
-		CCB91A641A29D09B00BA0539 /* pt-BR.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "Example/Classes/View/pt-BR.lproj"; sourceTree = SOURCE_ROOT; };
 		F80D223819CCFAC30019A8EA /* TGCameraGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraGridView.h; sourceTree = "<group>"; };
 		F80D223919CCFAC30019A8EA /* TGCameraGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraGridView.m; sourceTree = "<group>"; };
 		F80D223B19CCFD590019A8EA /* TGCameraGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraGrid.h; sourceTree = "<group>"; };
@@ -66,7 +61,6 @@
 		F82F8EDB19C4F29000A47148 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F835957D19C7230500CAE395 /* TGInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGInitialViewController.h; sourceTree = "<group>"; };
 		F835957E19C7230500CAE395 /* TGInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGInitialViewController.m; sourceTree = "<group>"; };
-		F835958119C72DEF00CAE395 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		F835958219C72F3400CAE395 /* TGAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAlbum.h; sourceTree = "<group>"; };
 		F835958319C72F3400CAE395 /* TGAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAlbum.m; sourceTree = "<group>"; };
 		F835958519C766F800CAE395 /* TGCameraShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraShot.h; sourceTree = "<group>"; };
@@ -104,8 +98,6 @@
 		F8E72B4A19C9B76400FF3AE5 /* TGCameraSlideDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideDownView.h; sourceTree = "<group>"; };
 		F8E72B4B19C9B76400FF3AE5 /* TGCameraSlideDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideDownView.m; sourceTree = "<group>"; };
 		FAF1D2201A77DB35002275A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TGCameraAuthorizationViewController.strings; sourceTree = "<group>"; };
-		FAF1D2211A77DB92002275A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/TGCameraAuthorizationViewController.strings; sourceTree = "<group>"; };
-		FAF1D2221A77DBAE002275A2 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/TGCameraAuthorizationViewController.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,8 +178,6 @@
 		F82F8ED919C4F29000A47148 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				CCB91A641A29D09B00BA0539 /* pt-BR.lproj */,
-				CCB91A621A29D09600BA0539 /* de.lproj */,
 				CCB91A601A29D08D00BA0539 /* Base.lproj */,
 				F82F8EDA19C4F29000A47148 /* Info.plist */,
 				F82F8EDB19C4F29000A47148 /* main.m */,
@@ -329,7 +319,6 @@
 			knownRegions = (
 				en,
 				Base,
-				"pt-BR",
 			);
 			mainGroup = F82F8E7819C4EFE700A47148;
 			productRefGroup = F82F8E8219C4EFE700A47148 /* Products */;
@@ -347,13 +336,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82F8EE219C4F29000A47148 /* Images.xcassets in Resources */,
-				CCB91A651A29D09B00BA0539 /* pt-BR.lproj in Resources */,
 				CCB91A611A29D08D00BA0539 /* Base.lproj in Resources */,
 				F861D62919C653D90077B642 /* TGCameraViewController.xcassets in Resources */,
 				F861D61A19C620EC0077B642 /* TGCameraViewController.xib in Resources */,
 				F897018919C7AF5C004E6480 /* TGPhotoViewController.xib in Resources */,
 				F8B3E83319CDB6D90070CEB2 /* TGCameraAuthorizationViewController.xib in Resources */,
-				CCB91A631A29D09600BA0539 /* de.lproj in Resources */,
 				F82F8EDF19C4F29000A47148 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,8 +386,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				F82F8ED219C4F29000A47148 /* Base */,
-				F835958119C72DEF00CAE395 /* pt-BR */,
-				CCB91A5C1A29CFE900BA0539 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -426,8 +411,6 @@
 			children = (
 				F8B3E83419CDB6D90070CEB2 /* Base */,
 				FAF1D2201A77DB35002275A2 /* en */,
-				FAF1D2211A77DB92002275A2 /* uk */,
-				FAF1D2221A77DBAE002275A2 /* ru-RU */,
 			);
 			name = TGCameraAuthorizationViewController.xib;
 			sourceTree = "<group>";
