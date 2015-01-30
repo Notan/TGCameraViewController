@@ -97,6 +97,8 @@
 		F8E72B4819C9B75900FF3AE5 /* TGCameraSlideUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideUpView.m; sourceTree = "<group>"; };
 		F8E72B4A19C9B76400FF3AE5 /* TGCameraSlideDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideDownView.h; sourceTree = "<group>"; };
 		F8E72B4B19C9B76400FF3AE5 /* TGCameraSlideDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideDownView.m; sourceTree = "<group>"; };
+		FA904BDF1A7BE19600D3BE3E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/TGCameraAuthorizationViewController.strings; sourceTree = "<group>"; };
+		FA904BE01A7BE1A900D3BE3E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TGCameraAuthorizationViewController.strings; sourceTree = "<group>"; };
 		FAF1D2201A77DB35002275A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TGCameraAuthorizationViewController.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -319,6 +321,8 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
+				ru,
 			);
 			mainGroup = F82F8E7819C4EFE700A47148;
 			productRefGroup = F82F8E8219C4EFE700A47148 /* Products */;
@@ -411,6 +415,8 @@
 			children = (
 				F8B3E83419CDB6D90070CEB2 /* Base */,
 				FAF1D2201A77DB35002275A2 /* en */,
+				FA904BDF1A7BE19600D3BE3E /* uk */,
+				FA904BE01A7BE1A900D3BE3E /* ru */,
 			);
 			name = TGCameraAuthorizationViewController.xib;
 			sourceTree = "<group>";
