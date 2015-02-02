@@ -125,7 +125,7 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jP-uX-c4U" userLabel="Default">
                             <rect key="frame" x="31" y="19" width="70" height="72"/>
-                            <state key="normal" image="CameraEffectDefault">
+                            <state key="normal" image="TGCameraViewController.bundle/CameraEffectDefault.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -134,7 +134,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQZ-zM-IfK" userLabel="Sature">
                             <rect key="frame" x="106" y="19" width="70" height="72"/>
-                            <state key="normal" image="CameraEffectSature">
+                            <state key="normal" image="TGCameraViewController.bundle/CameraEffectSature.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -143,7 +143,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evv-qG-miu" userLabel="Curve">
                             <rect key="frame" x="181" y="19" width="70" height="72"/>
-                            <state key="normal" image="CameraEffectCurve">
+                            <state key="normal" image="TGCameraViewController.bundle/CameraEffectCurve.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -152,7 +152,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SfY-Gx-tnh" userLabel="Vignette">
                             <rect key="frame" x="256" y="19" width="70" height="72"/>
-                            <state key="normal" image="CameraEffectVignette">
+                            <state key="normal" image="TGCameraViewController.bundle/CameraEffectVignette.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -203,12 +203,12 @@
         </view>
     </objects>
     <resources>
-        <image name="CameraEffectCurve" width="50" height="50"/>
-        <image name="CameraEffectDefault" width="50" height="50"/>
-        <image name="CameraEffectSature" width="50" height="50"/>
-        <image name="CameraEffectVignette" width="50" height="50"/>
         <image name="TGCameraViewController.bundle/CameraBack.png" width="26" height="26"/>
         <image name="TGCameraViewController.bundle/CameraConfirm.png" width="26" height="26"/>
+        <image name="TGCameraViewController.bundle/CameraEffectCurve.png" width="26" height="26"/>
+        <image name="TGCameraViewController.bundle/CameraEffectDefault.png" width="26" height="26"/>
+        <image name="TGCameraViewController.bundle/CameraEffectSature.png" width="26" height="26"/>
+        <image name="TGCameraViewController.bundle/CameraEffectVignette.png" width="26" height="26"/>
         <image name="TGCameraViewController.bundle/CameraFilter.png" width="26" height="26"/>
     </resources>
 </document>
