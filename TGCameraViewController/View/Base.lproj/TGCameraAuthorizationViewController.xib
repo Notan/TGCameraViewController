@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
@@ -23,7 +24,7 @@
                                 <constraint firstAttribute="width" constant="50" id="GTO-kd-C7B"/>
                                 <constraint firstAttribute="height" constant="40" id="zfH-sA-cuk"/>
                             </constraints>
-                            <state key="normal" image="CameraGrid">
+                            <state key="normal" image="CameraGrid.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
@@ -33,7 +34,7 @@
                                 <constraint firstAttribute="width" constant="50" id="39Q-oi-TXk"/>
                                 <constraint firstAttribute="height" constant="40" id="UhS-ZY-L7u"/>
                             </constraints>
-                            <state key="normal" image="CameraToggle">
+                            <state key="normal" image="CameraToggle.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
@@ -56,13 +57,13 @@
                                 <constraint firstAttribute="height" constant="80" id="NeQ-R1-u8b"/>
                                 <constraint firstAttribute="width" constant="80" id="U0J-UF-VKM"/>
                             </constraints>
-                            <state key="normal" image="CameraFlashAuto">
+                            <state key="normal" image="CameraFlashAuto.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                         <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8O-nu-6Iw" userLabel="Shot">
                             <rect key="frame" x="261" y="11" width="78" height="78"/>
-                            <state key="normal" image="CameraShot">
+                            <state key="normal" image="CameraShot.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
@@ -72,7 +73,7 @@
                                 <constraint firstAttribute="height" constant="80" id="OE7-z6-xvR"/>
                                 <constraint firstAttribute="width" constant="80" id="Pe9-lS-uFc"/>
                             </constraints>
-                            <state key="normal" image="CameraClose">
+                            <state key="normal" image="CameraClose.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -154,10 +155,10 @@
         </view>
     </objects>
     <resources>
-        <image name="CameraClose" width="26" height="26"/>
-        <image name="CameraFlashAuto" width="41" height="41"/>
-        <image name="CameraGrid" width="26" height="26"/>
-        <image name="CameraShot" width="78" height="78"/>
-        <image name="CameraToggle" width="26" height="26"/>
+        <image name="CameraClose.png" width="26" height="26"/>
+        <image name="CameraFlashAuto.png" width="41" height="41"/>
+        <image name="CameraGrid.png" width="26" height="26"/>
+        <image name="CameraShot.png" width="78" height="78"/>
+        <image name="CameraToggle.png" width="26" height="26"/>
     </resources>
 </document>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -42,7 +42,7 @@
                                 <constraint firstAttribute="height" constant="80" id="0Ms-p9-lfD"/>
                                 <constraint firstAttribute="width" constant="80" id="fWA-Gp-xvk"/>
                             </constraints>
-                            <state key="normal" image="CameraBack">
+                            <state key="normal" image="CameraBack.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -55,7 +55,7 @@
                                 <constraint firstAttribute="height" constant="78" id="31h-nh-YvJ"/>
                                 <constraint firstAttribute="width" constant="78" id="ltH-g3-jMC"/>
                             </constraints>
-                            <state key="normal" image="CameraConfirm">
+                            <state key="normal" image="CameraConfirm.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -68,7 +68,7 @@
                                 <constraint firstAttribute="height" constant="80" id="Qaz-63-vsp"/>
                                 <constraint firstAttribute="width" constant="80" id="uUY-8G-MhV"/>
                             </constraints>
-                            <state key="normal" image="CameraFilter">
+                            <state key="normal" image="CameraFilter.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -203,12 +203,12 @@
         </view>
     </objects>
     <resources>
-        <image name="CameraBack" width="26" height="26"/>
-        <image name="CameraConfirm" width="78" height="78"/>
+        <image name="CameraBack.png" width="26" height="26"/>
+        <image name="CameraConfirm.png" width="78" height="78"/>
         <image name="CameraEffectCurve" width="50" height="50"/>
         <image name="CameraEffectDefault" width="50" height="50"/>
         <image name="CameraEffectSature" width="50" height="50"/>
         <image name="CameraEffectVignette" width="50" height="50"/>
-        <image name="CameraFilter" width="41" height="41"/>
+        <image name="CameraFilter.png" width="41" height="41"/>
     </resources>
 </document>
